@@ -1,0 +1,38 @@
+.warrper{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.warrper button {
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #000000;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 10px;
+}
+.accordion{
+width: 500px;
+}
+.card{
+    padding: 10px 20px;
+    margin-bottom:10px ;
+    background-color: #610645;
+}
+.title{
+    display: flex;
+    justify-content: space-between;  
+    color: #fff;
+    align-items: center;
+    cursor: pointer;
+}
+.content {
+    height: auto;
+    background-color: #610645;
+    color: #fff; 
+
+}
